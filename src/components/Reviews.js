@@ -1,17 +1,18 @@
-export const BuyerReview = () => {
-return(
-<> 
-<h1>Buyer Review</h1>
-</>
+import Image from "../assets/images/ph.jpg";
 
+function Reviews(){
 
-)
-}
-
-export const SellerReview = () => {
-    return(
-    <> 
-    <h1>Seller Review</h1>
+    return (
+    <>
+    <div >
+        <div className="d-flex text-align-center justify-content-center">
+        <img width={100} height={100} src={Image}/>
+        </div>
+        <h3 className="text-center">Reviews</h3>
+    </div>
     </>
-    )
+    
+    );
+    
     }
+    export default Reviews;
